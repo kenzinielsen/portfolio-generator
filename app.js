@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const profileDataArgs = process.argv.slice(2);
 
 const printProfileData = profileDataArr => {
@@ -13,3 +14,7 @@ const printProfileData = profileDataArr => {
 };
 
 printProfileData(profileDataArgs);
+=======
+var profileDataArgs = process.argv.slice(2, process.argv.length);
+console.log(profileDataArgs);
+>>>>>>> 68c604f18d56ece0fa40f29ae4c277a8a5870dc4
